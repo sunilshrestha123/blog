@@ -18,10 +18,13 @@ class Footer extends Component {
                     <Link to='/aboutus'>About Me</Link>
                   </li>
                   <li>
-                    <Link to='/Gallary'>Gallery</Link>
+                    <Link to='/gallary'>Gallery</Link>
                   </li>
                   <li>
                     <Link to='/contact'>Contact Us</Link>
+                  </li>
+                  <li>
+                    <Link to='/myteam'>My Team</Link>
                   </li>
                 </ul>
               </div>
@@ -46,19 +49,19 @@ class Footer extends Component {
                 </ul>
               </div>
               <div class='footer-col'>
-                <h4>online shop</h4>
+                <h4>Nature</h4>
                 <ul>
                   <li>
-                    <Link href='#'>Portfolio</Link>
+                    <Link href='#'>NEPAL Adventure</Link>
                   </li>
                   <li>
-                    <Link href='#'>Contact</Link>
+                    <Link href='#'>NEPAL TOP SIDE TO VIST</Link>
                   </li>
                   <li>
-                    <Link href='#'>Subscribe</Link>
+                    <Link href='#'>Culture</Link>
                   </li>
                   <li>
-                    <Link href='#'>Resources</Link>
+                    <Link href='#'>News</Link>
                   </li>
                 </ul>
               </div>
