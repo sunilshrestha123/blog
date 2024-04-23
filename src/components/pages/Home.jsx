@@ -39,7 +39,24 @@ export default function Home() {
             <h2>Twitter</h2>
           </Col>
         </Row>
+        <div>
+          <iframe
+            width='420'
+            height='345'
+            src='https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1'
+          ></iframe>
+        </div>
       </Container>
+      <div
+        style={{
+          width: '100%',
+          backgroundColor: '#00B9E8',
+          padding: '30px',
+          margin: '0px',
+        }}
+      >
+        <h1>social media icons</h1>
+      </div>
       <Timeline />
     </div>
   );

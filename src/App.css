@@ -1,1 +1,18 @@
+body{
+background-color: #e8f0f7;
+font-family: 'Inter',sans-serif;
+padding-top: 45px;
 
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:9999;
+
+}
+.footer{
+
+position: relative;    
+width: 100%;
+}

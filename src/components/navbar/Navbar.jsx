@@ -10,7 +10,13 @@ function NavBar() {
     <div>
       <Navbar bg='dark' data-bs-theme='dark' fixed='top' expand='sm'>
         <Container>
-          <Navbar.Brand href='#home'>Mina Tamang </Navbar.Brand>
+          <Navbar.Brand>
+            <Nav.Link>
+              <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
+                Mina Tamang
+              </Link>{' '}
+            </Nav.Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto'>
@@ -28,7 +34,7 @@ function NavBar() {
                     fontFamily: 'Arial',
                   }}
                 >
-                  About
+                  About Us
                 </Link>
               </Nav.Link>
               <Nav.Link href=''>
