@@ -4,8 +4,6 @@ export default function Timeline() {
   return (
     <div>
       <h2>Working History</h2>
-      <h1>Please view my work journey</h1>
-
       <div className='timeline'>
         <div className='timeline__event  animated fadeInUp delay-3s timeline__event--type1'>
           <div className='timeline__event__icon '>
@@ -18,10 +16,9 @@ export default function Timeline() {
             </div>
             <div className='timeline__event__description'>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-                corporis incidunt reprehenderit accusantium id aut architecto
-                harum quidem dolorem in!
+                In 2017 is the first institution where i start my first job as
+                an intern .Where i learn about the banking management,customer
+                support and banking sofware .
               </p>
             </div>
           </div>
@@ -37,10 +34,8 @@ export default function Timeline() {
             </div>
             <div className='timeline__event__description'>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-                corporis incidunt reprehenderit accusantium id aut architecto
-                harum quidem dolorem in!
+                In 2018 i start my first paying job in kathmandu as a
+                receptionist.
               </p>
             </div>
           </div>
@@ -77,8 +72,7 @@ export default function Timeline() {
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
                 nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-                corporis incidunt reprehenderit accusantium id aut architecto
-                harum quidem dolorem in!
+                in!
               </p>
             </div>
           </div>

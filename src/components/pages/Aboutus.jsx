@@ -7,22 +7,13 @@ const Aboutus = () => {
       <img
         src={About}
         alt='aboutus'
-        style={{ width: '1300px', height: '600px' }}
+        style={{ width: '100%', height: '600px' }}
       />
 
       <h2>
-        <h1>Full name</h1>
-        <h2>Short Note</h2>
-
         <b>About Me</b>
       </h2>
       <div>
-        <Container>
-          <Row>
-            <Col>Image</Col>
-            <Col>Content</Col>
-          </Row>
-        </Container>
         <p>
           Hello It's Me Mina Tamang form Ilam district which lies in estern part
           of the Nepal.Ilam is surrounded by the beautiful mountain .Mostly

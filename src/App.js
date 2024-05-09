@@ -8,16 +8,11 @@ import Footer from './components/Footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Aboutus from './components/pages/Aboutus';
 import Gallery from './components/pages/Gallery';
-import { useState } from 'react';
-import { Button } from 'react-bootstrap';
+
 // import Errorpage from './components/pages/Errorpage';
 import Myteam from './components/pages/myteam/Myteam';
 import './App.css';
 const App = () => {
-  const [count, setCount] = useState(0);
-  function handleClick() {
-    setCount(count + 1);
-  }
   return (
     <div>
       <div className='header'>

@@ -7,7 +7,10 @@ export default function Home() {
   return (
     <div>
       <Slide />
-      <Badge />
+      <div>
+        <h1>My Blog </h1>
+        <Badge />
+      </div>
       <Container>
         <Row>
           <Col>
@@ -40,11 +43,11 @@ export default function Home() {
           </Col>
         </Row>
         <div>
-          <iframe
+          {/* <iframe
             width='420'
             height='345'
             src='https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1'
-          ></iframe>
+          ></iframe> */}
         </div>
       </Container>
       <div
