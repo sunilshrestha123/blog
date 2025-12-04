@@ -9,7 +9,7 @@ export default function Badge() {
       <Container>
         <Row>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '25rem' }}>
               <Card.Img variant='top' src={image2} />
               <Card.Body>
                 <Card.Title>Digital Marketing</Card.Title>
@@ -22,7 +22,7 @@ export default function Badge() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '25rem' }}>
               <Card.Img variant='top' src={image2} />
               <Card.Body>
                 <Card.Title>recruitment</Card.Title>
@@ -35,7 +35,7 @@ export default function Badge() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '25rem' }}>
               <Card.Img variant='top' src={image1} />
               <Card.Body>
                 <Card.Title>Job hunting</Card.Title>

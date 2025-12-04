@@ -9,7 +9,12 @@ export default function Slide() {
     <>
       <Carousel data-bs-theme=' '>
         <Carousel.Item>
-          <img className='d-block w-100' src={image1} alt='First slide' />
+          <img
+            className='d-block w-100'
+            src={image1}
+            alt='First slide'
+            style={{ width: '100%', height: '50%' }}
+          />
           <Carousel.Caption>
             <h5>We Are hiring </h5>
             <p>

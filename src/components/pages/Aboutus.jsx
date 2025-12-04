@@ -1,52 +1,67 @@
 import React from 'react';
 import About from '../Photos/Aboutus.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
+
 const Aboutus = () => {
   return (
     <div>
       <img
         src={About}
-        alt='aboutus'
-        style={{ width: '1300px', height: '600px' }}
+        alt='About Us'
+        style={{ width: '100%', height: '600px', objectFit: 'cover' }}
       />
 
-      <h2>
-        <h1>Full name</h1>
-        <h2>Short Note</h2>
+      <div style={{ textAlign: 'center', marginTop: '30px' }}>
+        <h1>Full Name</h1>
+        <h3>Short Note</h3>
+        <h2>
+          <b>About Me</b>
+        </h2>
+      </div>
 
-        <b>About Me</b>
-      </h2>
-      <div>
-        <Container>
-          <Row>
-            <Col>Image</Col>
-            <Col>Content</Col>
-          </Row>
-        </Container>
-        <p>
-          Hello It's Me Mina Tamang form Ilam district which lies in estern part
-          of the Nepal.Ilam is surrounded by the beautiful mountain .Mostly
-          popular for tea leaf production. Hello It's Me Mina Tamang form Ilam
-          district which lies in estern part of the Nepal.Ilam is surrounded by
-          the beautiful mountain .Mostly popular for tea leaf production. Hello
-          It's Me Mina Tamang form Ilam district which lies in estern part of
-          the Nepal.Ilam is surrounded by the beautiful mountain .Mostly popular
-          for tea leaf production.
-        </p>
-      </div>
-      <div>
-        <p>
-          Hello It's Me Mina Tamang form Ilam district which lies in estern part
-          of the Nepal.Ilam is surrounded by the beautiful mountain .Mostly
-          popular for tea leaf production. Hello It's Me Mina Tamang form Ilam
-          district which lies in estern part of the Nepal.Ilam is surrounded by
-          the beautiful mountain .Mostly popular for tea leaf production. Hello
-          It's Me Mina Tamang form Ilam district which lies in estern part of
-          the Nepal.Ilam is surrounded by the beautiful mountain .Mostly popular
-          for tea leaf production.
-        </p>
-      </div>
+      <Container style={{ marginTop: '40px' }}>
+        <Row>
+          <Col md={4}>
+            <img
+              src={About}
+              alt='Profile'
+              style={{ width: '100%', borderRadius: '10px' }}
+            />
+          </Col>
+
+          <Col md={8}>
+            <p>
+              Hello! It's me, Mina Tamang from Ilam district, located in the
+              eastern part of Nepal. Ilam is surrounded by beautiful mountains
+              and is mostly popular for tea leaf production. Hello! It's me,
+              Mina Tamang from Ilam district, located in the eastern part of
+              Nepal. Ilam is surrounded by beautiful mountains and is mostly
+              popular for tea leaf production. Hello! It's me, Mina Tamang from
+              Ilam district, located in the eastern part of Nepal. Ilam is
+              surrounded by beautiful mountains and is mostly popular for tea
+              leaf production.
+            </p>
+          </Col>
+        </Row>
+
+        <Row style={{ marginTop: '20px' }}>
+          <Col>
+            <p>
+              Hello! It's me, Mina Tamang from Ilam district, located in the
+              eastern part of Nepal. Ilam is surrounded by beautiful mountains
+              and is mostly popular for tea leaf production. Hello! It's me,
+              Mina Tamang from Ilam district, located in the eastern part of
+              Nepal. Ilam is surrounded by beautiful mountains and is mostly
+              popular for tea leaf production. Hello! It's me, Mina Tamang from
+              Ilam district, located in the eastern part of Nepal. Ilam is
+              surrounded by beautiful mountains and is mostly popular for tea
+              leaf production.
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
+
 export default Aboutus;

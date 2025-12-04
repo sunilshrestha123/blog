@@ -3,8 +3,8 @@ import './timeline.css';
 export default function Timeline() {
   return (
     <div>
-      <h2>Working History</h2>
-      <h1>Please view my work journey</h1>
+      <h1>My Working History</h1>
+      <h2>Please view my work journey</h2>
 
       <div className='timeline'>
         <div className='timeline__event  animated fadeInUp delay-3s timeline__event--type1'>

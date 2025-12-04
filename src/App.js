@@ -10,7 +10,7 @@ import Aboutus from './components/pages/Aboutus';
 import Gallery from './components/pages/Gallery';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
-// import Errorpage from './components/pages/Errorpage';
+import Errorpage from './components/pages/Errorpage';
 import Myteam from './components/pages/myteam/Myteam';
 
 const App = () => {
@@ -20,18 +20,19 @@ const App = () => {
   }
   return (
     <div>
-      <Navbar />
       <div ClassName='content'>
+        <Navbar />
         <Routes>
           <Route index element={<Home />} />
           <Route path='/blog' element={<Home />} />
 
           <Route path='/home' element={<Home />} />
-          {/* <Route path='*' element={<Errorpage />} /> */}
+          <Route path='*' element={<Errorpage />} />
           <Route path='contact' element={<Contact />} />
           <Route path='aboutus' element={<Aboutus />} />
           <Route path='gallery' element={<Gallery />} />
           <Route path='myteam' element={<Myteam />} />
+          <Route path='contact' element={<Contact />} />
         </Routes>
       </div>
       {/* <div>

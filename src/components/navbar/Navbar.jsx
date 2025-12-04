@@ -4,18 +4,24 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Button, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import './Navbar.scss';
 function NavBar() {
   return (
     <div>
       <Navbar bg='dark' data-bs-theme='dark' fixed='top' expand='sm'>
         <Container>
-          <Navbar.Brand href='#home'>Mina Tamang </Navbar.Brand>
+          <Navbar.Brand>
+            <Nav.Link>
+              <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
+                Mina Tamang
+              </Link>{' '}
+            </Nav.Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto'>
               <Nav.Link>
-                <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
+                <Link to='/' className='link'>
                   Home
                 </Link>
               </Nav.Link>
@@ -28,15 +34,22 @@ function NavBar() {
                     fontFamily: 'Arial',
                   }}
                 >
-                  About
+                  About Me
                 </Link>
               </Nav.Link>
               <Nav.Link href=''>
-                <Link
-                  to='/contact'
-                  style={{ textDecoration: 'none', color: 'white' }}
-                >
+                <Link to='/contact' className='link'>
                   Contact us
+                </Link>
+              </Nav.Link>
+              <Nav.Link href=''>
+                <Link to='/myteam' className='link'>
+                  My team
+                </Link>
+              </Nav.Link>
+              <Nav.Link href=''>
+                <Link to='/myteam' className='link'>
+                  Blog
                 </Link>
               </Nav.Link>
               <Nav.Link>
@@ -47,7 +60,14 @@ function NavBar() {
                   Gallery
                 </Link>
               </Nav.Link>
-              <Nav.Link href='#pricing'>Contact </Nav.Link>
+              <Nav.Link href='#pricing'>
+                <Link
+                  to='/contact'
+                  style={{ textDecoration: 'none', color: 'white' }}
+                >
+                  Contact
+                </Link>
+              </Nav.Link>
               <NavDropdown title='Dropdown' id='basic-nav-dropdown'>
                 <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
                 <NavDropdown.Item href='#action/3.2'>
@@ -64,12 +84,12 @@ function NavBar() {
               <Nav.Link></Nav.Link>
             </Nav>
             <Nav.Link>
-              <Button variant='primary' size='sm'>
+              <Button variant='primary' size='sm' className='signin'>
                 Sign In{' '}
               </Button>
             </Nav.Link>
             <Nav.Link>
-              <Button variant='success' size='sm'>
+              <Button variant='success' size='sm' className='login'>
                 Sign In{' '}
               </Button>
             </Nav.Link>

@@ -8,6 +8,13 @@ export default function Gallery() {
       <h1>These is Gallary page</h1>
       <h1>These is Gallary page</h1>
       <h1>These is Gallary page</h1>
+
+      <h1>These is Gallary page</h1>
+      <h1>These is Gallary page</h1>
+      <h1>These is Gallary page</h1>
+      <h1>These is Gallary page</h1>
+      <h1>These is Gallary page</h1>
+      <h1>These is Gallary page</h1>
     </div>
   );
 }
